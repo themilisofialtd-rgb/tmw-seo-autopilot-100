@@ -1,0 +1,71 @@
+.tmw-sa100-wrap {
+    max-width: 960px;
+}
+
+.tmw-sa100-card {
+    background: #fff;
+    border-radius: 6px;
+    padding: 24px;
+    margin-bottom: 24px;
+    box-shadow: 0 15px 35px rgba(30, 47, 74, 0.08);
+}
+
+.tmw-sa100-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+}
+
+.tmw-sa100-badge {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 999px;
+    background: #3858e9;
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: .05em;
+}
+
+.tmw-sa100-table td,
+.tmw-sa100-table th {
+    padding: 8px 12px;
+}
+
+.tmw-sa100-test-connections {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 12px;
+}
+
+.tmw-sa100-test-spinner {
+    visibility: hidden;
+}
+
+.tmw-sa100-test-spinner.is-active {
+    visibility: visible;
+}
+
+.tmw-sa100-test-results {
+    font-weight: 600;
+}
+
+.tmw-sa100-connection-status {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-right: 8px;
+}
+
+.tmw-sa100-connection-success {
+    color: #198754;
+}
+
+.tmw-sa100-connection-fail {
+    color: #cc1818;
+}
+
+.tmw-sa100-test-notices {
+    margin-top: 16px;
+}
